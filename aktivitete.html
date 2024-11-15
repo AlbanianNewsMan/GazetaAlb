@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rogacionistë</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script>
+      // JavaScript function to scroll to the top of the page
+      function goToTop() {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth", // Smooth scrolling
+        });
+      }
+
+      // JavaScript function to scroll to the bottom of the page
+      function goToBottom() {
+        window.scrollTo({
+          top: document.body.scrollHeight,
+          behavior: "smooth", // Smooth scrolling
+        });
+      }
+    </script>
+    <!-- Include Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header id="aktivitete">
+      <!-- Larger Heading -->
+      <h1>Aktivitete</h1>
+
+      <!-- Navigation Bar -->
+      <nav>
+        <ul>
+          <li><a href="index.html">Shtëpi</a></li>
+          <li><a href="intervista.html">Intervista</a></li>
+          <li><a href="krijimtari.html">Krijimtari</a></li>
+          <!-- Go to Bottom Button with Arrow -->
+          <li><button onclick="goToBottom()">Shko në Fund↓</button></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="button-container">
+      <button>
+        <a href="aktivitete2.html">Eksploro&#x2794;</a>
+      </button>
+    </div>
+
+    <main>
+      <div class="content-container">
+        <div class="main-article">
+          <h2>AKTIVITETET E MUAJIT</h2>
+          <h4>
+            &#x2794; Vizitë me grupin e historisë në Varrezat e Dëshmorëve të
+            qytetit të Lezhës në 80-vjetorin e çlirimit të atdheut!
+          </h4>
+          <img src="GazetaFoto/Pune.jpg" alt="" />
+          <img src="GazetaFoto/Pune2.jpg" alt="" />
+
+          <div class="sidebar-article">
+            <h4>
+              &#x2794; Vizitë në Muzeun Etnografik të qytetit për t’u njohur me
+              trashëgiminë historike në periudha të ndryshme të historisë.
+            </h4>
+            <img src="GazetaFoto/Pune3.jpg" alt="" />
+            <img src="GazetaFoto/Pune4.jpg" alt="" />
+            <img src="GazetaFoto/Pune5.jpg" alt="" />
+            <img src="GazetaFoto/Pune6.jpg" alt="" />
+          </div>
+          <div class="sidebar-article">
+            <h4>
+              &#x2794; Bisedë letrare: Gjergj Fishta dhe At'Zef Pllumi- Apostuj
+              të kulturës shqiptare !
+            </h4>
+            <img src="GazetaFoto/Pune7.JPG" alt="" />
+            <img src="GazetaFoto/Pune8.JPG" alt="" />
+            <img src="GazetaFoto/Pune9.JPG" alt="" />
+            <img src="GazetaFoto/Pune10.JPG" alt="" />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="button-container">
+      <button>
+        <a href="aktivitete2.html">Eksploro&#x2794;</a>
+      </button>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 Gazeta Rogacionistë.</p>
+    </footer>
+
+    <!-- Back to Top Button at the End -->
+    <div class="back-to-top-container">
+      <button onclick="goToTop()" class="back-to-top-button">
+        Kthim në Krye <i class="fas fa-arrow-up"></i>
+      </button>
+    </div>
+  </body>
+</html>

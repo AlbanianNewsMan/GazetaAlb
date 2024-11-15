@@ -1,0 +1,271 @@
+/* Reset any margin and padding for header and nav */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+/* Combined Header and Navigation Styling */
+header {
+  background-color: #b30000; /* Dark red color */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#aktivitete {
+  background-color: #198406de; /* Dark red color */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+#intervista {
+  background-color: #060c89f3; /* Dark red color */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+#krijimtari {
+  background-color: #6503a2d6; /* Dark red color */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3.25rem;
+  margin-bottom: 5px;
+}
+
+.center-header {
+  text-align: center;
+  font-size: 32px;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.button-row {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+/* Style for the button */
+button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Hover effect for the button */
+button:hover {
+  background-color: #555;
+  transform: scale(1.05);
+}
+
+/* Optional: Focus effect for accessibility */
+button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Navigation Bar inside Header */
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 10px 0;
+  margin-top: 10px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Style the Go to Bottom Button */
+nav ul li button {
+  padding: 8px 16px;
+  background-color: #e64c4c; /* Button color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+nav ul li button:hover {
+  background-color: #c13a23; /* Darker shade on hover */
+}
+
+/* Style the Back to Top Button */
+.back-to-top-container {
+  position: fixed;
+  bottom: 60px; /* Position at the bottom of the page */
+  right: 20px; /* Align it to the right */
+}
+
+.back-to-top-button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Button color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.back-to-top-button i {
+  margin-left: 8px; /* Space between text and arrow */
+}
+
+.back-to-top-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Main Content Layout (Unified Content) */
+main {
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+/* Unified Article Layout */
+.main-article {
+  background-color: #fff;
+  padding: 20px;
+  padding-top: 12px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.main-article img {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between the lists */
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.no-style-list {
+  list-style-type: none;
+  margin-left: 23px;
+}
+
+/* Sidebar Articles now inside main-article */
+.sidebar-article {
+  margin-top: 20px;
+}
+
+.sidebar-article h4 {
+  font-size: 1.2rem;
+  color: #333;
+  font-style: italic;
+}
+
+.right {
+  text-align: right;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+/* KKKKKKKKKKKKKKKKKKAAAAAAAAANNNNNNNNNNCCCCCCCEEEEERRRRRRRR */
+
+.scroll {
+  width: 300px;
+  padding: 30px 20px;
+  margin: 20px auto;
+  background: #f4e2c2; /* Light parchment color */
+  border: 1px solid #b18a6a; /* Darker border for aged effect */
+  border-radius: 15px; /* Rounded edges to mimic scroll paper */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  font-family: "Georgia", serif; /* Old-style font */
+  font-size: 18px;
+  color: #5d3b09; /* Dark brown text */
+  line-height: 1.6;
+  background-image: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 24px,
+    rgba(0, 0, 0, 0.1) 25px
+  ); /* Horizontal "crease" lines */
+  position: relative;
+}
+
+/* Top and bottom “scroll handles” */
+.scroll:before,
+.scroll:after {
+  content: "";
+  display: block;
+  width: 110%;
+  height: 20px;
+  background: #b18a6a;
+  position: absolute;
+  left: -5%;
+  border-radius: 10px;
+}
+.scroll:before {
+  top: -25px; /* Top handle */
+}
+.scroll:after {
+  bottom: -25px; /* Bottom handle */
+}
+
+/* Text styling within the scroll */
+.scroll p {
+  margin: 0;
+  padding: 0;
+}
